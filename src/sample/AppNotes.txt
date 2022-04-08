@@ -1,0 +1,27 @@
+BLACK JACK NOTES/BLUEPRINTS
+
+MAIN CLASS:
+	- Runs all of the logic
+	- Instantiates the players (player and dealer)
+	- Instantiates the cards/deck
+	- Deals cards accordingly 
+	- Launches application GUI
+	
+DECK CLASS:
+	- Collects all images of the cards (provided from one of the class modules)
+	- Constructor to get the images and shuffle the cards as a precaution
+	- Store all images in ArrayList<ImageView>
+	- Method for dealing the cards
+	- Method for giving a card, on hit
+	- Method for shuffling the cards
+	
+PLAYER CLASS:
+	- Contain images of the cards they hold so that the main class can reference them and use them to place them in the GUI HBox
+	- Contain letter data for each card. Meaning it contains the "A", "#", "J", etc.
+	- Method for checking the letter data and using a variable to track the total number, from reading card data
+	- Method for checking Aces and giving them the right value for a certain situation (E: When the hand is > 21 but there is an Ace so -10. 
+	- Proper setters and getters for both Main and Card class to reference
+	
+	
+	
+THE CODE IS SOMEWHAT MESSY AND VARIABLE NAMES ARE A BIT TOO SIMILAR AT TIMES
