@@ -1,4 +1,4 @@
-# BlackJackApp
+# Black Jack Java Application
 Basic black jack game using JavaFX for GUI
 Created back in 2020
 # Note
